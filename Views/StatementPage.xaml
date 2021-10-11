@@ -1,0 +1,29 @@
+﻿<Page x:Class="CrawlerByCSharp.Views.StatementPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CrawlerByCSharp.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="StatementPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="开发者：紫枫伊" Grid.Row="0"
+                   FontSize="35" FontFamily="华文行楷"
+                   VerticalAlignment="Center" Margin="10 0"/>
+        <TextBlock Text="应用名：《从零开始的小爬虫》" Grid.Row="1"
+                   FontSize="35" FontFamily="华文行楷"
+                   VerticalAlignment="Center" Margin="10 0"/>
+        <TextBlock Text="公告栏" Grid.Row="2"
+                   FontSize="35" FontFamily="华文行楷"
+                   VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10 0"/>
+        <TextBox Grid.Row="3" Margin="5" Text="暂无公告" AcceptsReturn="True" IsReadOnly="True"/>
+    </Grid>
+</Page>

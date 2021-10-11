@@ -1,0 +1,23 @@
+﻿<Application x:Class="CrawlerByCSharp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CrawlerByCSharp"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="DynamicResourceDictionary/Generic.xaml"/>
+                <ResourceDictionary Source="ResourceDictionary/CheckBoxDictionary.xaml"/>
+                <ResourceDictionary Source="ResourceDictionary/IconLabelDictionary.xaml"/>
+                <ResourceDictionary Source="ResourceDictionary/ListViewDictionary.xaml"/>
+                <ResourceDictionary Source="ResourceDictionary/NormalButtonDictionary.xaml"/>
+                <ResourceDictionary Source="ResourceDictionary/SliderDictionary.xaml"/>
+                <ResourceDictionary Source="ResourceDictionary/UnderLineDictionary.xaml"/>
+                <ResourceDictionary Source="ResourceDictionary/WindowTitleDictionary.xaml"/>
+                <ResourceDictionary Source="ResourceDictionary/WindowButtonDictionary.xaml"/>
+                <ResourceDictionary Source="ResourceDictionary/WrapListButtonDictionary.xaml"/>
+                <ResourceDictionary Source="ResourceDictionary/TestDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
